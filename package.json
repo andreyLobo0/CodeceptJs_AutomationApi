@@ -1,0 +1,20 @@
+{
+  "name": "automationapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "codeceptjs": "codeceptjs run --steps",
+    "codeceptjs:verbose": "codeceptjs run --steps --verbose"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.8.5",
+    "codeceptjs": "^3.3.6"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
